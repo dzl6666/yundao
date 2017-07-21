@@ -1,0 +1,177 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.box {
+  width: 100%; }
+  .box .xiala-list2 {
+    font-size: 10.5px;
+    font-family: "微软雅黑";
+    color: #717171;
+    float: right;
+    padding: 10px 0; }
+    .box .xiala-list2 img {
+      width: 14px;
+      height: 8px;
+      padding-left: 4px; }
+  .box .xiala {
+    margin: 0 auto;
+    width: 1200px;
+    height: 101px; }
+    .box .xiala a {
+      color: #363636;
+      font-size: 13.5px;
+      font-family: "微软雅黑"; }
+    .box .xiala .xiala-tu {
+      margin-top: 24px;
+      float: left;
+      padding-right: 390px; }
+    .box .xiala .xiala-list3 {
+      position: relative;
+      top: -39px; }
+    .box .xiala .xiala-list1 {
+      color: #2087FD; }
+    .box .xiala .xiala-list4 {
+      z-index: 1; }
+      .box .xiala .xiala-list4 li {
+        margin-left: 40px;
+        margin-right: 40px; }
+      .box .xiala .xiala-list4 li:nth-child(1) {
+        margin-top: 20px;
+        color: #363636;
+        font-size: 13.5px;
+        font-family: "微软雅黑";
+        padding-bottom: 10px;
+        border-bottom: 1px solid #A7A7A7; }
+      .box .xiala .xiala-list4 li:nth-child(2) {
+        margin-top: 22px;
+        color: #363636;
+        font-size: 12.5px;
+        font-family: "微软雅黑";
+        padding-bottom: 12px; }
+      .box .xiala .xiala-list4 li:nth-child(3) {
+        color: #9D9D9D;
+        font-size: 10.5px;
+        font-family: "微软雅黑";
+        padding-bottom: 22px; }
+      .box .xiala .xiala-list4 li:nth-child(4) {
+        color: #363636;
+        font-size: 12.5px;
+        font-family: "微软雅黑";
+        padding-bottom: 14px; }
+      .box .xiala .xiala-list4 li:nth-child(5) {
+        color: #9D9D9D;
+        font-size: 10.5px;
+        font-family: "微软雅黑";
+        padding-bottom: 22px; }
+      .box .xiala .xiala-list4 li:nth-child(6) {
+        color: #2087FD;
+        font-size: 12.5px;
+        font-family: "微软雅黑";
+        padding-bottom: 12px; }
+      .box .xiala .xiala-list4 li:nth-child(7) {
+        color: #9D9D9D;
+        font-size: 10.5px;
+        font-family: "微软雅黑"; }
+    .box .xiala .one {
+      float: left;
+      margin-top: 48px;
+      padding-left: 45px;
+      position: relative;
+      z-index: 1; }
+      .box .xiala .one ul {
+        display: none;
+        background: #F2F2F2;
+        height: 276px;
+        width: 480px;
+        position: absolute;
+        top: 34px;
+        left: -3px; }
+
+.dong {
+  width: 100%; }
+  .dong img {
+    width: 100%; }
+
+.prov {
+  height: 365px; }
+  .prov > ul {
+    width: 1200px;
+    margin: 0 auto; }
+    .prov > ul > li {
+      float: left;
+      text-align: center;
+      padding-left: 150px;
+      padding-top: 64px; }
+      .prov > ul > li .big {
+        font-size: 24px;
+        color: #333; }
+      .prov > ul > li .sm {
+        font-size: 18px;
+        color: #999; }
+    .prov > ul > li:nth-child(1) {
+      padding-left: 120px; }
+
+footer {
+  background: #212425;
+  width: 100%; }
+  footer a {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #c7c9c9; }
+  footer a:hover {
+    color: #2288F6;
+    border-bottom: 1px solid #2288F6; }
+  footer .foo {
+    margin: 0 auto;
+    width: 1200px;
+    height: 168px; }
+    footer .foo .l-foo {
+      float: left;
+      margin-top: 50px;
+      margin-left: 200px;
+      margin-right: 50px; }
+      footer .foo .l-foo li {
+        float: left;
+        padding: 0 15px 0 14px;
+        border-right: 1px solid lightgray;
+        font-size: 14px; }
+      footer .foo .l-foo .list2 {
+        color: #296CBC;
+        text-decoration: underline; }
+      footer .foo .l-foo .list3 {
+        border-right: none; }
+    footer .foo .clearfix:after {
+      display: block;
+      clear: both;
+      content: ""; }
+    footer .foo .r-foo {
+      padding-top: 46px; }
+      footer .foo .r-foo img {
+        width: 28px;
+        height: 20px; }
+      footer .foo .r-foo span {
+        font-size: 20px;
+        color: #888888;
+        font-family: "微软雅黑"; }
+    footer .foo .line {
+      border-bottom: 2px solid #888888;
+      padding-top: 13px;
+      width: 1075px;
+      margin: 0 auto; }
+    footer .foo .foo-wen {
+      padding-top: 16px;
+      margin: 0 auto 0 350px; }
+      footer .foo .foo-wen p {
+        font-size: 14px;
+        color: #888888;
+        font-family: "微软雅黑"; }
+
+/*# sourceMappingURL=gwsc.css.map */

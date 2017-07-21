@@ -1,0 +1,382 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:333333;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+header{
+    width:1200px;
+    margin:0 auto;
+    div:nth-child(1){
+        float:left;
+        img{
+            padding-top:18px;
+        }
+    }
+    div:nth-child(2){
+        float:right;
+        #ul1{
+            >li{
+                float:left;
+                padding-left:60px;
+                padding-top:50px;
+                padding-bottom: 35px;
+                position: relative;
+                font-size:18px;
+                div{
+                    a{
+                        &:hover{
+                            color:#16a0fc;
+                        }
+                    }
+                }
+                >ul{
+                    position: absolute;
+                    left: 40px;
+                    top: 70px;
+                    z-index: 2;
+                }
+                .child{
+                    display: none;
+                }
+                .child>li{
+                    width:100px;
+                    height:30px;
+                    text-align: center;
+                    line-height:30px;
+                    background-color:white;
+                    font-size:14px;
+                   &:hover{
+                        color:#16a0fc;
+                    }
+                    a{
+                       &:hover{
+                            color:#16a0fc;
+                       }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+//轮播
+
+
+.wrap {
+    position: relative;
+    width: 100%;
+    height:100%;
+    margin: 0 auto;
+    ul{
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        top: 370px;
+        margin-left: -50px;
+    }
+    .box {
+        width: 100%;
+        height: 430px;
+        position: relative;
+        overflow: hidden;
+        img {
+            width: 100%;
+        //  height: 430px;
+        }   
+        a {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    } 
+       li {
+        width: 10px;
+        height: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        background-color: gray;
+        border-radius: 50%;
+        float: left;
+        cursor: pointer;
+    }
+   li {
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        border-radius: 50%;
+        background-color: lightgray;
+        float: left;
+    }
+    ul{
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        margin-left: -50px;
+    }
+      .hot {
+        background-color: white;
+    }
+}
+.jie{
+    width:1080px;
+    height:485px;
+    margin:0 auto;
+    position: relative;
+    .line{
+        width:1000px;
+        height:75px;
+        margin:0 auto;
+        border-bottom: 1px solid #D0D0D0;
+        >div{
+            margin:0 auto;
+            width:135px;
+            height:24px;
+            background: #ffffff;
+            text-align: center;
+            font-size:24px;
+            position: absolute;
+            top:64px;
+            left:430px;
+            >p{
+                font-size:14px;
+            }
+        }
+    }
+    .jianjie{
+        width:1080px;
+        margin:0 auto;
+        div:nth-child(1){
+            float:left;
+            p{
+                font-size:16px;
+                padding-top:14px;
+            }
+            .p1{
+                padding-top:110px;
+            }
+        }
+        div:nth-child(2){
+            float:right;
+            padding-top:80px;
+        }
+    }
+}
+.you{
+    width:1080px;
+    margin:0 auto;
+    position: relative;
+    .line1{
+        width:1000px;
+        height:75px;
+        margin:0 auto;
+        border-bottom: 1px solid #D0D0D0;
+        >div{
+            margin:0 auto;
+            width:135px;
+            height:24px;
+            background:#FFFFFF;
+            text-align: center;
+            font-size:24px;
+            position: absolute;
+            top:64px;
+            left:430px;
+            >p{
+                font-size:14px;
+            }
+        }
+    }
+    .youshi{
+        width:1080px;
+        margin:0 auto;
+        div:first-child{
+            .left1{
+                float:left;
+                img{
+                    padding-top:94px;
+                }
+            }
+            .right1{
+                float:right;
+                h3{
+                    padding-top:210px;
+                    font-size:20px;
+                }
+                .p2{
+                    padding-top:20px;
+                }
+                .p3{
+                    padding-top:15px;
+                }
+            }
+        }
+        div:last-child{
+            .left2{
+                float:left;
+                h3{
+                    padding-top:166px;
+                    font-size:20px;
+                }
+                .p4{
+                    padding-top:24px;
+                }
+                .p5{
+                    padding-top:15px;
+                }
+                .p6{
+                    padding-top:20px;
+                }
+            }
+            .right2{
+                float:right;
+                img{
+                    padding-top:65px;
+                }
+            }
+        }
+    }
+}
+.fen-bottom{
+    width:1200px;
+    height:230px;
+//  background: red;
+    margin:0 auto;
+
+    .nr{
+        width:260px;
+        height:55px;
+        line-height:55px;
+        text-align: center;
+        border:1px solid #ffcfab;
+        font-size:20px;
+        margin:0 auto;
+        margin-top:85px;
+        position: relative;
+        a{
+            color:#ffcfab;
+        }
+        .circle{
+            width:30px;
+            height:30px;
+            border-radius: 50%;
+            background: #FE982F;
+            position: absolute;
+            top:-15px;
+            right:17px;
+        }
+    }
+}
+//底部
+footer {
+     background: #212425;
+    width: 100%;
+    a {
+        font-family: "微软雅黑";
+        font-size: 14px;
+        color: #c7c9c9;
+    }
+    a:hover{
+         color: #2288F6;
+         border-bottom: 1px solid #2288F6;
+                    }
+    .foo {
+        margin: 0 auto;
+        width: 1200px;
+        height: 168px;
+        .l-foo {
+            float: left;
+            margin-top: 50px;
+            margin-left: 200px;
+            margin-right: 50px;
+            li {
+                float: left;
+                padding: 0 15px 0 14px;
+                border-right: 1px solid lightgray;
+                font-size: 14px;
+            }
+
+            .list2 {
+                color: #296CBC;
+                text-decoration: underline;
+            }
+            .list3 {
+                border-right: none;
+            }
+        }
+        .clearfix:after {
+            display: block;
+            clear: both;
+            content: "";
+        }
+        .r-foo {
+            padding-top: 46px;
+            img {
+                width: 28px;
+                height: 20px;
+            }
+            span {
+                 font-size: 20px;
+                color: #888888;
+                font-family: "微软雅黑";
+            }
+
+        }
+        .line {
+            border-bottom: 2px solid #888888;
+            padding-top: 13px;
+            width: 1075px;
+            margin: 0 auto;
+        }
+        .foo-wen {
+            padding-top: 16px;
+            margin: 0 auto 0 350px;
+            p {
+               font-size: 14px;
+                color: #888888;
+                font-family: "微软雅黑";
+            }
+        }
+
+    }
+}
+.gd{
+    width:47px;
+    height:157px;
+    position: fixed;
+    top:450px;
+    right:0;
+    div:nth-child(1){
+        width:47px;
+        height:50px;
+        background: white;
+        text-align: center;
+        line-height:70px;
+    }
+    div:nth-child(2){
+        width: 47px;
+        height:107px;
+        background: #FF6600;
+        text-align: center;
+        a{
+            font-size:18px;
+            color:white;
+        }
+        .top{
+            padding-top:17px;
+        }
+    }
+}

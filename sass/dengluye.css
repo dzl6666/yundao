@@ -1,0 +1,113 @@
+header {
+  height: 110px;
+  margin: 0 auto; }
+  header div {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url("../img/login-logo.png");
+    background-repeat: no-repeat;
+    background-position: 30px 20px; }
+
+.wraap {
+  height: 560px;
+  background: #3793f5; }
+  .wraap .wraap-lis {
+    width: 1200px;
+    height: 560px;
+    margin: 0 auto; }
+    .wraap .wraap-lis .banner {
+      width: 735px;
+      height: 490px;
+      margin-top: 70px;
+      float: left; }
+      .wraap .wraap-lis .banner img {
+        width: 80%;
+        height: 100%; }
+    .wraap .wraap-lis .inp {
+      float: right;
+      width: 340px;
+      height: 330px;
+      background: white;
+      margin-top: 90px;
+      text-align: center; }
+      .wraap .wraap-lis .inp h3 {
+        font-size: 20px;
+        color: #333333;
+        margin-top: 30px; }
+      .wraap .wraap-lis .inp .account {
+        width: 265px;
+        height: 36px;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 20px; }
+        .wraap .wraap-lis .inp .account div {
+          height: 36px;
+          width: 33.5px;
+          line-height: 35px;
+          border: 1px solid #CCCCCC;
+          border-right: none;
+          background: #f3f4f4;
+          float: left;
+          border-top-left-radius: 3px;
+          border-bottom-left-radius: 3px; }
+        .wraap .wraap-lis .inp .account input {
+          float: right;
+          height: 36px;
+          width: 228px;
+          border: 1px solid #CCCCCC;
+          color: #CCCCCC;
+          border-top-right-radius: 3px;
+          border-bottom-right-radius: 3px; }
+      .wraap .wraap-lis .inp .password {
+        width: 265px;
+        height: 36px;
+        margin: 0 auto;
+        margin-bottom: 24px; }
+        .wraap .wraap-lis .inp .password div {
+          height: 36px;
+          width: 33.5px;
+          line-height: 35px;
+          border: 1px solid #CCCCCC;
+          border-right: none;
+          background: #f3f4f4;
+          float: left;
+          border-top-left-radius: 3px;
+          border-bottom-left-radius: 3px; }
+        .wraap .wraap-lis .inp .password input {
+          height: 36px;
+          width: 228px;
+          border: 1px solid #CCCCCC;
+          color: #CCCCCC;
+          float: right;
+          border-top-right-radius: 3px;
+          border-bottom-right-radius: 3px; }
+      .wraap .wraap-lis .inp .zhanghao {
+        width: 265px;
+        height: 26px;
+        margin: 0 auto;
+        margin-bottom: 16px; }
+        .wraap .wraap-lis .inp .zhanghao div:nth-of-type(1) {
+          float: left; }
+        .wraap .wraap-lis .inp .zhanghao div:nth-of-type(2) {
+          float: right; }
+      .wraap .wraap-lis .inp .btn button {
+        width: 260px;
+        height: 36px;
+        background: #3e7ee7;
+        color: white;
+        border: none;
+        border-radius: 3px; }
+      .wraap .wraap-lis .inp .zhuce {
+        width: 300px;
+        margin-top: 16px; }
+        .wraap .wraap-lis .inp .zhuce a {
+          float: right;
+          color: #2288f6; }
+
+p {
+  text-align: center;
+  margin-top: 46px;
+  margin-bottom: 252px; }
+
+/*# sourceMappingURL=dengluye.css.map */

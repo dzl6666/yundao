@@ -1,0 +1,141 @@
+@charset "utf-8";
+header {
+//      width: 1920px;
+    height: 110px;
+    margin: 0 auto;
+    div {
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        background-image: url("../img/login-logo.png");
+        background-repeat: no-repeat;
+        //  245 70 右390 上30;
+        background-position: 30px 20px;
+    }
+}
+.wraap {
+//  width: 1920px;
+    height: 560px;
+    background: #3793f5;
+    .wraap-lis {
+        width: 1200px;
+        height: 560px;
+        margin: 0 auto;
+        .banner {
+            width: 735px;
+            height: 490px;
+            margin-top: 70px;
+            float: left;
+            img {
+                width: 80%;
+                height: 100%;
+            }
+        }
+        .inp {
+            float: right;
+            width: 340px;
+            height: 330px;
+            background: white;
+            margin-top: 90px;
+            text-align: center;
+            h3 {
+                font-size: 20px;
+                color: #333333;
+                margin-top: 30px;
+            }
+            .account {
+                width: 265px;
+                height: 36px;
+                margin: 0 auto;
+                margin-top: 30px;
+                margin-bottom: 20px;
+                div {
+                    height: 36px;
+                    width: 33.5px;
+                    line-height: 35px;
+                    border: 1px solid #CCCCCC;
+                    border-right: none;
+                    background: #f3f4f4;
+                    float: left;
+                    border-top-left-radius: 3px;
+                    border-bottom-left-radius: 3px;
+                }
+                input {
+                    float: right;
+                    height: 36px;
+                    width: 228px;
+                    border: 1px solid #CCCCCC;
+                    color: #CCCCCC;
+                     border-top-right-radius: 3px;
+                    border-bottom-right-radius: 3px;
+                }
+            }
+            .password {
+                width: 265px;
+                height: 36px;
+                margin: 0 auto;
+                margin-bottom: 24px;
+                div {
+                     height: 36px;
+                    width: 33.5px;
+                    line-height: 35px;
+                    border: 1px solid #CCCCCC;
+                    border-right: none;
+                    background: #f3f4f4;
+                    float: left;
+                     border-top-left-radius: 3px;
+                    border-bottom-left-radius: 3px;
+                }
+                input {
+                    height: 36px;
+                    width: 228px;
+                    border: 1px solid #CCCCCC;
+                    color: #CCCCCC;
+                    float: right;
+                    border-top-right-radius: 3px;
+                    border-bottom-right-radius: 3px;
+                }
+            }
+            .zhanghao{
+                width: 265px;
+                height: 26px;
+                margin:0 auto;
+                margin-bottom: 16px;
+                div:nth-of-type(1){
+                    float: left;
+                }
+                div:nth-of-type(2){
+                    float: right;
+                }
+            }
+            .btn{
+                button{
+                    width: 260px;
+                    height: 36px;
+                    background: #3e7ee7;
+                    color: white;
+                    border: none;
+                    border-radius: 3px;
+                }
+            }
+            .zhuce{
+                width: 300px;
+                margin-top: 16px;
+                a{
+                    float: right;
+                    color: #2288f6;
+                }
+            }
+        }
+    }
+}
+p{
+//  width: 1920px;
+    text-align: center;
+    margin-top: 46px;
+    margin-bottom: 252px;
+}
+//p{
+//  margin:0 auto;
+//  text-align: center;
+//}
